@@ -1,0 +1,16 @@
+    [binaries]
+    name = 'android'
+    c     = '/Users/jefflee/tools/android-ndk-r22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android22-clang'
+    cpp   = '/Users/jefflee/tools/android-ndk-r22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android22-clang++'
+    ar    = '/Users/jefflee/tools/android-ndk-r22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/llvm-ar'
+    ld    = '/Users/jefflee/tools/android-ndk-r22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ld'
+    strip = '/Users/jefflee/tools/android-ndk-r22b/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-strip'
+
+    [properties]
+    needs_exe_wrapper = true
+
+    [host_machine]
+    system = 'linux'
+    cpu_family = 'aarch64'
+    cpu = 'aarch64'
+    endian = 'little'
